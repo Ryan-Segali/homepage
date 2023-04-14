@@ -1,0 +1,65 @@
+body{
+    background-color: grey;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: white;
+    text-decoration: underline solid;
+    text-align: center;
+    background-color: black;
+    margin: 0 auto;
+    padding: 1em;
+    font-size: 2em;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+div {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: #adacad;
+    color: black;
+    font-size: 1.2em;
+    padding: .2em;
+    padding-left: .2em;
+    padding-right: .2em;
+    border: white solid .1em;
+}
+
+button:hover {
+    background-color: black;
+    color: #adacad;
+    font-size: 1.2em;
+    padding: .2em;
+    padding-left: .2em;
+    padding-right: .2em;
+    border: black solid .1em;
+    transition-duration: .5s;
+}
+
+img {
+    display: block;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1em;
+    margin-bottom: 100em;
+    border: 3px solid black;
+}
+
+footer {
+    background-color: black;
+    margin-top: 5px;
+    padding: 4px;
+    font-size: .5em;
+    margin-top: 5px;
+}
